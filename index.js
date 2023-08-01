@@ -3,7 +3,7 @@ const axios = require('axios')
 
 class PhotoOxy {
     constructor() {
-        this.data_url = 'https://raw.githubusercontent.com/SL-CODE-LORDS/Photooxy/main/data/text_pro_url.json'
+        this.data_url = 'https://raw.githubusercontent.com/SL-CODE-LORDS/Photooxy/main/data/photooxy.json'
     }
     async get_urls_list() {
         const res = await axios.get(this.data_url)
